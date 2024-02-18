@@ -1,0 +1,31 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Record Entries</title>
+    {% include 'head.html' %}
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <h1>Medical Record Entries</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Medical Record ID</th>
+                <th>Entry Date</th>
+                <th>Entry Text</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in entries %}
+                <tr>
+                    <td>{{ entry.medical_record_id }}</td>
+                    <td>{{ entry.entry_date }}</td>
+                    <td>{{ entry.entry_text }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+        <!-- Included in navbar implementing DRY Principle -->
+</body>
+
