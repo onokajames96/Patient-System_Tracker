@@ -1,6 +1,5 @@
 
 # Patient-System_Tracker
-portfolio project
 Patient System Tracker is a web application designed to streamline patient management for healthcare providers. It allows administrators to manage users, including patients and medical staff, and maintain medical records efficiently.
 
 Features
