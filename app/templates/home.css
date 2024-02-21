@@ -27,6 +27,13 @@ body{
     height: 30px;
     background-color: rgb(52,58,64);
     color: white;
+    text-align: center;   
+}
+#contact h2{
+    color: blue;
+    background-color: lightgray;
     text-align: center;
-    
+}
+#contact p{
+    text-align: center;
 }
